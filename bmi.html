@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="bmi.css">
+    <script defer src="bmi.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@700&family=Inter:wght@500&family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>BMI Calculator</h1>
+        <input type="text" placeholder="Enter your Height(Cm)" id="height" onkeydown="validateKey(event)"><br>
+        <input type="text" placeholder="Enter your weight(Kg)" id="weight" onkeydown="validateKey(event)"><br>
+        <button id="calculate" >CALCULATE</button><br>
+        <p id="result">Your BMI Value is:</p><br>
+        <p id="result1">Your Condition is:</p>
+        
+
+    </div>
+    
+</body>
+</html>
